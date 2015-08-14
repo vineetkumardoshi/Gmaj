@@ -1,0 +1,46 @@
+#tags{
+  float:left;
+  border:1px solid #ccc;
+  padding:5px;
+  font-family:Arial;
+  display: none;
+  width: 100%;
+}
+#tags span.tag{
+  cursor:pointer;
+  display:block;
+  float:left;
+  color:#fff;
+  border-radius: 5px;
+  background:#123;
+  padding:5px;
+  padding-right: 35px;
+  margin:4px;
+  font-size: 25px;
+}
+
+#tags span.tag.hvr-icon-fade.fa-times:before{
+  right:5px;
+}
+.hvr-icon-fade:active:before, .hvr-icon-fade:focus:before, .hvr-icon-fade:hover:before{
+  color:red;
+}
+/*
+#tags span.tag:after{
+ position:absolute;
+ content:'\2716';
+ padding:0 5px;
+ margin:7px 5px;
+ font-size:15px;
+ background-color: red;
+ 
+}
+*/
+
+#tags input{
+  background:#eee;
+  border:0;
+  margin:4px;
+  padding:7px;
+  width:auto;
+}

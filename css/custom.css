@@ -1,0 +1,140 @@
+body{
+/*  background: url('http://branding-me.com/wp-content/uploads/2014/07/2560x1600.jpg') no-repeat center center fixed; 
+ */ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ } 
+#download{
+	margin-top: 30px;
+}
+.btn-success{
+  border-radius: 0px;
+}
+.btn-default{
+  border-radius: 0px;
+}
+.btn-success:focus{
+  outline: 0;
+}
+.btn-default:focus{
+  outline: 0;
+}
+#qmark{
+  margin-top: -11px;
+  width: 18px;
+  display: inline;
+  opacity: 0.9;
+}
+#qmark2{
+  margin-top: -4px;
+  margin-left: -33px;
+  margin-right: 20px;
+  width: 15px;
+  display: none;
+  opacity: 0.9;
+}
+
+#check1{
+  -webkit-appearance: none;
+  background-color: #FFFFFF;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid; 
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+#check2{
+  -webkit-appearance: none;
+  background-color: #FFFFFF;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid; 
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+#check1:checked:after {
+  content: '\2714';
+  font-size: 50px;
+  position: absolute;
+  top: -30px;
+  color: #00A000;
+}
+
+#check2:checked:after {
+  content: '\2714';
+  font-size: 50px;
+  position: absolute;
+  top: -30px;
+  color: #00A000;
+}
+#tag{
+  display: none;
+}
+#max-lines{
+  display: none;
+  border-radius: 0;
+}
+#sub-btn{
+  position:relative;
+  margin-top:25px;
+  float: none;
+}
+#countblines{
+  display:none;
+  width: 200px;
+
+}
+#yes{
+  border: 1px solid;
+  border-color: rgba(0,0,0,0.4);
+  border-radius: 0px;
+  display: none;
+  padding-top: 13px;
+  padding-right: 23px;
+  position: relative;
+  background-color: #aaa;
+  margin-right: 3px;
+}
+#yes.active{
+  border: 1px solid;
+  border-color: rgba(0,0,0,0.4);
+  border-radius: 0px;
+  display: none;
+  padding-top: 13px;
+  padding-right: 23px;
+  position: relative;
+  background-color: #00A000;
+  font-weight: bold;
+  margin-right: 3px;
+}
+#no{
+
+  border: 1px solid;
+  border-color: rgba(0,0,0,0.4);
+  border-radius: 0px;
+  display: none;
+  padding-top: 13px;
+  padding-right: 23px;
+  position: relative;
+  background-color: #aaa;
+  margin-left: 3px;
+}
+#no.active{
+  border: 1px solid;
+  border-color: rgba(0,0,0,0.4);
+  border-radius: 0px;
+  display: none;
+  padding-top: 13px;
+  padding-right: 23px;
+  position: relative;
+  background-color: #00A000;
+  font-weight: bold;
+  margin-left: 3px;
+}
